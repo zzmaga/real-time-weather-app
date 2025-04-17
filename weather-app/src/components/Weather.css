@@ -1,0 +1,171 @@
+.weather-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-bar button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .weather-container {
+    margin-bottom: 30px;
+  }
+  
+  .main-weather-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .main-weather-content h1 {
+    font-size: 32px;
+    margin: 0 0 20px;
+  }
+  
+  .weather-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .weather-icon {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .weather-details h2 {
+    font-size: 48px;
+    margin: 0;
+  }
+  
+  .weather-details p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .weather-date {
+    font-size: 16px;
+    color: #666;
+    margin-top: 20px;
+  }
+  
+  .weather-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .icon-card {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 120px;
+  }
+  
+  .icon-card i {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .icon-card p {
+    font-size: 14px;
+    margin: 0 0 5px;
+  }
+  
+  .icon-card h3 {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .sunrise-sunset {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .sun-card {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 150px;
+  }
+  
+  .sun-card img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .sun-card p {
+    font-size: 14px;
+    margin: 0 0 5px;
+  }
+  
+  .sun-card h3 {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin: 20px 0 10px;
+  }
+  
+  .hourly-forecast,
+  .daily-forecast {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+  }
+  
+  .forecast-card {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    min-width: 120px;
+  }
+  
+  .forecast-card p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .forecast-card img {
+    width: 50px;
+    height: 50px;
+  }
